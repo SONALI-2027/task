@@ -20,7 +20,7 @@ export default function Home() {
 
       <div className="mt-10 flex justify-center px-4">
         <Link
-          href="/product"
+          href="/Product"
           className="inline-flex items-center justify-center rounded-[8px] bg-[#426B1F] px-6 py-4 text-[18px] font-medium text-white md:px-[32px] md:py-[19px] md:text-[20px]"
         >
           Browse our shop
