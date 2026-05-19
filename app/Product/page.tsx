@@ -55,12 +55,11 @@ export default function Product() {
         <div className="mt-8 h-[2px] w-full bg-[#E6E6E6]"></div>
       </section>
 
-      <section className="mx-auto flex flex-col gap-8 px-4 pt-12 md:flex-row md:flex-wrap md:justify-center lg:justify-between lg:px-24">
-
+<section className="mx-auto flex flex-col items-center gap-8 px-4 pt-12 md:flex-row md:flex-nowrap md:justify-center md:gap-6 lg:justify-between lg:px-24">
         {products.map((item) => (
           <div
             key={item.id}
-            className="w-full overflow-hidden rounded-[24px] border-2 border-[#E6E6E6] bg-[#FAFAF5] md:w-[350px] lg:w-[395px]"
+            className="w-full max-w-[395px] overflow-hidden rounded-[24px] border-2 border-[#E6E6E6] bg-[#FAFAF5]"
           >
 
             <img
